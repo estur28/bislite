@@ -106,7 +106,6 @@ li {
     height: 0;
     overflow: hidden;
     opacity: 0;
-    
     position: absolute;
     width: 200px;
     background-color: #fff;
@@ -151,7 +150,7 @@ li {
 .header__drop-down > a::after {  /*cтрогая вложенность одной ссылки*/
     content: "";
     position: absolute;
-    background-image: url(../images/down-arrow.png);
+    background-image: url(/images/down-arrow.png);
     width: 7px;
     height: 5px;
     right: 8px;
@@ -164,6 +163,21 @@ li {
     overflow: visible;
     opacity: 1;
     transition: all .3s;
+}
+
+
+.header__menu-btn {
+    width: 30px;
+    display: none;
+}
+
+
+
+.header__menu-row {
+    width: 100%;
+    background-color: #000;
+    height: 4px;
+    margin-bottom: 4px;
 }
 
 .header__drop-down.drop-down:hover > a {
@@ -348,7 +362,7 @@ li {
 
 
 .works__inner-item {
-    text-align: center;;
+    text-align: center;
 }
 
 .works__inner-box {
@@ -358,7 +372,7 @@ li {
 
 .works__inner-link {
     background-color: #2aacc8;
-    height: 0px;
+    height: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -559,6 +573,8 @@ li {
      font-size: 50px;
      font-weight: 400;
 }
+
+
 
 
   
